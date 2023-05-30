@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.pricing_card {
+    transition: all 0.3s ease-in-out;
+}
+.pricing_card:hover .heading{
+    color: rgba(0, 200, 200, 0.7);
+    
+}
